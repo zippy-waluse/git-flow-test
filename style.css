@@ -2,8 +2,26 @@
     border: solid 2px;
     padding: 100px 100px;
     margin:5px 5px;
+    background-color: plum;
 }
 #content{
-    border: solid 2px;  
+ border : solid 2px; 
+ padding-left: 20px;
+ background-color: aquamarine;
  
+}
+#button{
+    background-color: black;
+    color: aqua;
+    width: 20%;
+}
+#text{
+    display: inline-block;
+}
+#content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#pic{
+    padding-top: 2px;
 }
